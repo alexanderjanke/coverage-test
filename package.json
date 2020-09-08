@@ -9,6 +9,7 @@
     "lint:fix": "eslint src --fix --ext .ts",
     "test": "ava test/**/*.spec.ts",
     "coverage": "nyc npm test",
+    "coverage:html": "nyc --reporter=lcov --reporter=text-summary npm test",
     "posttest": "nyc report --reporter=json"
   },
   "repository": {
