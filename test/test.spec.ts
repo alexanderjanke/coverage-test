@@ -15,3 +15,7 @@ test("min", (t) => {
   const res = min(5, 10);
   t.is(res, 5);
 });
+test("min else", (t) => {
+  const res = min(10, 5);
+  t.is(res, 5);
+});
