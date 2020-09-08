@@ -8,5 +8,5 @@ test("1+2 = 3", (t) => {
 
 test("max", (t) => {
   const res = max(5, 10);
-  t.is(res, 5);
+  t.is(res, 10);
 });
